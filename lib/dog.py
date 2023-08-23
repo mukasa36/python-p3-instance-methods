@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
-class Dog:
-    # Class body goes here
+class Dog():
+    def bark(self):
+        print("Woof!")
 
-    #Instance method definition
-    pass
+    def sit(self):
+        print("The dog is sitting.")
+
+person = Dog()
+person.bark()
+person.sit()
